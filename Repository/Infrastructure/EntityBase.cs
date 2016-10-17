@@ -1,4 +1,8 @@
-﻿namespace Repository.Infrastructure
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+
+namespace Repository.Infrastructure
 {
     public abstract class EntityBaseEF<TKey> : IEntity<TKey>, IObjectState
     {
