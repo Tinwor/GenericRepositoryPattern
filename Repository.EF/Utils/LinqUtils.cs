@@ -1,4 +1,9 @@
-﻿namespace Repository.EF.Utils
+﻿using System;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Reflection;
+
+namespace Repository.EF.Utils
 {
     public static class LinqUtils
     {

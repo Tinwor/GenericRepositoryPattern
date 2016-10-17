@@ -64,6 +64,15 @@
     <Compile Include="IDataContext\IDataContext.cs" />
     <Compile Include="IDataContext\IDataContextAsync.cs" />
     <Compile Include="Infrastructure\EntityBase.cs" />
+    <Compile Include="Infrastructure\IEntity.cs" />
+    <Compile Include="Infrastructure\IObjectState.cs" />
+    <Compile Include="Infrastructure\ObjectState.cs" />
+    <Compile Include="IRepository\IRepository.cs" />
+    <Compile Include="IRepository\IRepositoryAsync.cs" />
+    <Compile Include="IService\IService.cs" />
+    <Compile Include="IService\IServiceAsync.cs" />
+    <Compile Include="IUnitOfWork\IUnitOfWork.cs" />
+    <Compile Include="IUnitOfWork\IUnitOfWorkAsync.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

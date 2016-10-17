@@ -45,6 +45,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,8 +60,14 @@
     <Compile Include="Repository\EFRepository.cs" />
     <Compile Include="Repository\EFRepositoryString.cs" />
     <Compile Include="Service\Service.cs" />
+    <Compile Include="UnitOfWork\UnitOfWork.cs" />
+    <Compile Include="Utils\LinqUtils.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Logging\Logging.csproj">
+      <Project>{357F438D-A147-40DC-A94A-FCA6BE0BC415}</Project>
+      <Name>Logging</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Repository\Repository.csproj">
       <Project>{a104c235-0d8b-406f-b1da-b10f2671e864}</Project>
       <Name>Repository</Name>
